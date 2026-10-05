@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://gary22222222.github.io/cs409-mp0/"><img src="assets/website.svg" height="40" alt="Personal website"></a>
   &nbsp;
-  <a href="mailto:sun112@illinois.edu"><img src="assets/email.svg" height="40" alt="Get in touch"></a>
+  <a href="mailto:jianghuisun69@gmail.com"><img src="assets/email.svg" height="40" alt="Get in touch"></a>
   &nbsp;
   <a href="https://gary22222222.github.io/cs409-mp0/assets/Jianghui_Sun_CV.pdf"><img src="assets/resume.svg" height="40" alt="View résumé"></a>
 </p>
@@ -128,7 +128,7 @@ Lecture Notes in Computer Science, Vol. 16568 · Springer, 2026
 <p align="center">
   <b>Let’s connect.</b><br>
   LLM systems · Agent memory · Multimodal AI<br><br>
-  <a href="mailto:sun112@illinois.edu">sun112@illinois.edu</a> &nbsp; / &nbsp;
+  <a href="mailto:jianghuisun69@gmail.com">jianghuisun69@gmail.com</a> &nbsp; / &nbsp;
   <a href="https://gary22222222.github.io/cs409-mp0/">Personal website</a>
 </p>
 
