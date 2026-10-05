@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Jianghui Sun — AI Systems, Agent Memory, Multimodal Learning</title>
+<desc id="desc">MCS at UIUC and Research Assistant at UIUC SSAIL. A navy banner with violet, blue, teal and coral accents.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b38"/><stop offset="1" stop-color="#242448"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#8b7bff"/><stop offset=".45" stop-color="#57baff"/><stop offset=".75" stop-color="#5de0c1"/><stop offset="1" stop-color="#ffad8d"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#7564d8" stop-opacity=".35"/><stop offset="1" stop-color="#7564d8" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#ffffff" opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+<ellipse cx="1040" cy="170" rx="270" ry="250" fill="url(#glow)"/>
+<path d="M32 356H1168" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="58" y="66" fill="#98b4d8" font-size="13" font-weight="700" letter-spacing="3">RESEARCH / ENGINEERING / ACCESSIBILITY</text>
+ <text x="55" y="147" fill="#f5f7ff" font-size="65" font-weight="700" letter-spacing="-2">Jianghui Sun<tspan fill="#79e0c4">.</tspan></text>
+ <text x="59" y="192" fill="#c4cde5" font-size="21">AI systems. Agent memory. Multimodal learning.</text>
+ <rect x="58" y="226" width="163" height="34" rx="17" fill="#324367"/><text x="139.5" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#d6e7ff">MCS @ UIUC</text>
+ <rect x="232" y="226" width="191" height="34" rx="17" fill="#36345b"/><text x="327.5" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#e0d6ff">RA @ UIUC SSAIL</text>
+ <text x="59" y="310" fill="#98accb" font-size="13" letter-spacing="1">URBANA, ILLINOIS</text>
+</g>
+<g transform="translate(930 175)" fill="none">
+ <circle r="119" stroke="#a9a3dd" stroke-opacity=".15"/>
+ <circle r="89" stroke="#a9a3dd" stroke-opacity=".22" stroke-dasharray="3 8"/>
+ <path d="M-80 -43L22 -80L88 1L36 86L-67 65Z M-80 -43L36 86 M22 -80L-67 65 M-80 -43L88 1 M22 -80L36 86 M-67 65L88 1" stroke="#7d8eae" stroke-opacity=".5" stroke-width="1.5"/>
+ <circle cx="-80" cy="-43" r="12" fill="#ab99ff"/><circle cx="22" cy="-80" r="10" fill="#6fbaff"/><circle cx="88" cy="1" r="15" fill="#6de0c8"/><circle cx="36" cy="86" r="11" fill="#ffb794"/><circle cx="-67" cy="65" r="9" fill="#88a4ff"/>
+ <circle cx="4" cy="3" r="28" fill="#252d4d" stroke="#9798c6"/>
+ <path d="M-5 -5L-13 3L-5 11 M13 -5L21 3L13 11 M6 -10L0 16" stroke="#e4e9fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
