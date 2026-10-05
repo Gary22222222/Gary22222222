@@ -1,60 +1,134 @@
-# Jianghui Sun
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Jianghui Sun — AI systems, agent memory, and multimodal learning. MCS at UIUC and Research Assistant at UIUC SSAIL.">
+</p>
 
-**MCS @ University of Illinois Urbana-Champaign · Research Assistant @ UIUC SSAIL**
+<p align="center">
+  <a href="https://gary22222222.github.io/cs409-mp0/"><img src="assets/website.svg" height="40" alt="Personal website"></a>
+  &nbsp;
+  <a href="mailto:sun112@illinois.edu"><img src="assets/email.svg" height="40" alt="Get in touch"></a>
+  &nbsp;
+  <a href="https://gary22222222.github.io/cs409-mp0/assets/Jianghui_Sun_CV.pdf"><img src="assets/resume.svg" height="40" alt="View résumé"></a>
+</p>
 
-I work on AI systems, agent memory, and multimodal learning. My interests connect efficient LLM inference with agents that can use and update knowledge, alongside accessible applications of multimodal AI.
+<p align="center">
+  <b>Exploring how AI systems serve, remember, and understand.</b><br>
+  MCS student at the University of Illinois Urbana-Champaign.<br>
+  Working across efficient LLM inference, agent memory, and accessible multimodal AI.
+</p>
 
-[Personal website](https://gary22222222.github.io/cs409-mp0/) · [Email](mailto:sun112@illinois.edu) · [Résumé](https://gary22222222.github.io/cs409-mp0/assets/Jianghui_Sun_CV.pdf)
+## 🟣 Current research
 
-## Currently working on
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### LLM inference systems — UIUC SSAIL
+### LLM inference systems
 
-**Research Assistant · Ongoing**
+**UIUC SSAIL · Research Assistant**  
+🟢 **Ongoing**
 
-Assisting with system optimizations for prefill/decode (P/D)-disaggregated LLM inference for multi-turn agentic tasks.
+Assisting with system optimizations for **prefill/decode (P/D)-disaggregated LLM inference** for multi-turn agentic tasks.
 
-### Knowledge Organization for Agent Memory Evolution
+`LLM serving` `P/D disaggregation` `Agentic workloads`
 
-**CS546 team research project @ UIUC · In progress**
+</td>
+<td width="50%" valign="top">
 
-Investigating whether organizing identical knowledge helps agents learn to revise stale memories while preserving valid information.
+### Agent memory evolution
 
-- Studying flat and semantically organized views of a shared memory bank with matched content, evidence, and feedback budgets.
-- Planning reinforcement-learning evaluation of selective revision, including learning gains, correction behavior, and preservation of valid knowledge.
-- The evaluation plan includes STALE, AgentStream, and MemoryAgentBench, with controls to distinguish semantic structure from generic grouping.
+**UIUC · CS546 team research project**  
+🟢 **In progress**
 
-## Selected experience & projects
+Investigating whether **knowledge organization** helps agents learn to revise stale memories while preserving valid information.
 
-| Work | Contribution |
-| --- | --- |
-| **Fine-grained Emoji Understanding** · Research Assistant, XJTLU · Nov 2025–Jan 2026 | Combined DINOv2 and Qwen-VL through adapter-based alignment to generate descriptions of subtle emoji expressions. |
-| **EmoSound** · Research Assistant, XJTLU · Sep–Nov 2025 | Developed an emotion-aware multimodal agent, fine-tuned CLIP with cross-attention soft prompts, and integrated retrieval with audio generation for accessibility. |
-| **Air Quality Forecasting** · ML Algorithm Engineering Intern, RocKontrol · Jun–Aug 2024 | Compared RNN, LSTM, GRU, and Transformer models on 40k+ records. LSTM reduced RMSE by approximately 12% versus the baseline RNN across multi-horizon forecasting experiments. |
-| **Cross-modal Audio Generation** · Jun–Sep 2025 | Developed a web application using training-free multimodal RAG, a cross-modal knowledge graph, dual-vector databases, and Qwen-based aggregation. |
-| **Daily Reading Tracker** · Mar–Jun 2025 | Implemented the reading-log module across the front end and back end of a deployed full-stack Java application. |
+`Agent memory` `Reinforcement learning` `Evaluation`
 
-## Publication
+</td>
+</tr>
+</table>
 
-**Sun, J., et al.** “EmoSound: A Multimodal AI Agent Framework for Emotion-Aware Audio Accompaniment of Emoticons.”  
-*Advances in Brain-Inspired Cognitive Systems*, Lecture Notes in Computer Science, Vol. 16568, Springer, 2026.  
-**Accepted for publication; forthcoming.** Presented at BICS 2025.
+<details>
+<summary><b>Inside the CS546 project — research question & evaluation plan</b></summary>
 
-## Technical toolkit
+**Knowledge Organization for Agent Memory Evolution** compares flat and semantically organized views of the same memory bank, with matched content, evidence, and feedback budgets.
+
+- **Question:** Does knowledge organization improve learning gains and sample efficiency for selective memory revision?
+- **Planned evaluation:** Reinforcement-learning gains, correction behavior, and preservation of valid knowledge.
+- **Benchmarks in the evaluation plan:** STALE, AgentStream, and MemoryAgentBench.
+- **Controls:** Separate the effect of semantic structure from generic grouping.
+
+This is ongoing team research; the evaluation plan is not a claim of completed results.
+
+</details>
+
+## 🔵 Research & engineering experience
+
+### Vision-language understanding
+
+**Research Assistant · Xi’an Jiaotong-Liverpool University** · Nov 2025–Jan 2026
+
+Built a fine-grained emoji understanding framework using **DINOv2 + Qwen-VL**. Designed adapter-based alignment modules to connect visual representations with the language decoder and describe subtle facial expressions.
+
+### Emotion-aware multimodal agents
+
+**Research Assistant · Xi’an Jiaotong-Liverpool University** · Sep–Nov 2025
+
+Developed **EmoSound**, an agent for emotion-aligned audio accompaniment of emoticons. Fine-tuned CLIP with cross-attention soft prompts and integrated multimodal retrieval with audio generation for visually impaired users.
+
+### Air quality forecasting
+
+**ML Algorithm Engineering Intern · RocKontrol Technology Group** · Jun–Aug 2024
+
+Built multi-horizon forecasting models using **40k+ records** of air quality, emissions, and weather data. Compared RNN, LSTM, GRU, and Transformer models in PyTorch.
+
+> **~12% lower RMSE** with LSTM versus the baseline RNN, with the most stable performance across 6-, 12-, and 24-hour forecast horizons.
+
+## 🟠 Selected builds
+
+| Project | What I built | Focus |
+| :--- | :--- | :--- |
+| **Cross-modal Audio Generation**<br>Jun–Sep 2025 | A web application that generates emotion-aligned audio from images using training-free multimodal RAG, a cross-modal knowledge graph, dual-vector databases, and Qwen-based aggregation. | `Multimodal RAG`<br>`Accessibility` |
+| **Daily Reading Tracker**<br>Mar–Jun 2025 | The core reading-log module across the front end and back end of a deployed full-stack Java application, with technical documentation. | `Java`<br>`Full-stack` |
+
+[Explore my portfolio →](https://gary22222222.github.io/cs409-mp0/#projects)
+
+## 🟢 Technical toolkit
+
+<img src="assets/toolkit.svg" width="100%" alt="Languages: Python, Java, C++, JavaScript, SQL. AI/ML: PyTorch, Transformers, scikit-learn, LoRA/PEFT, RAG, LangChain. Backend and tools: FastAPI, Spring Boot, REST APIs, Docker, Git/GitHub.">
+
+**Also work with:** Computer Vision · NLP · LLMs · Jupyter · Postman · n8n
+
+<details>
+<summary>View the toolkit as text</summary>
 
 - **Languages:** Python, Java, C++, JavaScript, SQL
 - **AI / ML:** PyTorch, Transformers, scikit-learn, Computer Vision, NLP, LoRA/PEFT, LLMs, RAG, LangChain
 - **Backend & tools:** FastAPI, Spring Boot, REST APIs, Docker, Git, GitHub, Jupyter, Postman, n8n
 
-## Education
+</details>
 
-**University of Illinois Urbana-Champaign**  
-Master of Computer Science · Aug 2026–Expected Dec 2027
+## 🟣 Publication
 
-**Xi’an Jiaotong-Liverpool University**  
-B.Sc. in Information and Computing Science · Sep 2022–Jul 2026 · GPA: 3.8/4.0
+**EmoSound: A Multimodal AI Agent Framework for Emotion-Aware Audio Accompaniment of Emoticons**
+
+**Sun, J.**, et al. · *Advances in Brain-Inspired Cognitive Systems*  
+Lecture Notes in Computer Science, Vol. 16568 · Springer, 2026
+
+🟣 **Accepted for publication; forthcoming** &nbsp; · &nbsp; Presented at **BICS 2025**
+
+## 🎓 Education
+
+| | Degree | Timeline |
+| :--- | :--- | :--- |
+| **University of Illinois Urbana-Champaign** | Master of Computer Science | Aug 2026–Expected Dec 2027 |
+| **Xi’an Jiaotong-Liverpool University** | B.Sc. in Information and Computing Science<br>**GPA 3.8 / 4.0** | Sep 2022–Jul 2026 |
 
 ---
 
-Interested in connecting about LLM systems, agent memory, or multimodal AI? Reach me at **[sun112@illinois.edu](mailto:sun112@illinois.edu)**.
+<p align="center">
+  <b>Let’s connect.</b><br>
+  LLM systems · Agent memory · Multimodal AI<br><br>
+  <a href="mailto:sun112@illinois.edu">sun112@illinois.edu</a> &nbsp; / &nbsp;
+  <a href="https://gary22222222.github.io/cs409-mp0/">Personal website</a>
+</p>
 
