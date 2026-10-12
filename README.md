@@ -27,7 +27,7 @@
 **UIUC SSAIL · Research Assistant**  
 🟢 **Ongoing**
 
-Assisting with system optimizations for **prefill/decode (P/D)-disaggregated LLM inference** for multi-turn agentic tasks.
+Investigating system optimization for **prefill/decode (P/D)-disaggregated LLM inference** in multi-turn agentic workloads. Repeated interactions create distinct inference and serving demands, which motivate this ongoing systems work.
 
 `LLM serving` `P/D disaggregation` `Agentic workloads`
 
@@ -67,27 +67,33 @@ This is ongoing team research; the evaluation plan is not a claim of completed r
 
 **Research Assistant · Xi’an Jiaotong-Liverpool University** · Nov 2025–Jan 2026
 
-Built a fine-grained emoji understanding framework using **DINOv2 + Qwen-VL**. Designed adapter-based alignment modules to connect visual representations with the language decoder and describe subtle facial expressions.
+- Built a multimodal emoji-understanding framework combining **DINOv2 visual representations with Qwen-VL** for fine-grained expression description generation.
+- Designed **adapter-based feature alignment** to map DINOv2 representations into Qwen-VL’s vision feature space.
+- Connected aligned features to the language decoder to describe subtle facial expressions.
 
 ### Emotion-aware multimodal agents
 
 **Research Assistant · Xi’an Jiaotong-Liverpool University** · Sep–Nov 2025
 
-Developed **EmoSound**, an agent for emotion-aligned audio accompaniment of emoticons. Fine-tuned CLIP with cross-attention soft prompts and integrated multimodal retrieval with audio generation for visually impaired users.
+- Developed **EmoSound**, a multimodal agent for emotion-aware audio accompaniment of visual emojis for visually impaired users.
+- Integrated **emotion-aligned retrieval with audio generation**.
+- Fine-tuned **CLIP with a lightweight cross-attention soft-prompt module** for low-resource emotion recognition, addressing limited emoji/emotion-aligned training data.
 
 ### Air quality forecasting
 
 **ML Algorithm Engineering Intern · RocKontrol Technology Group** · Jun–Aug 2024
 
-Built multi-horizon forecasting models using **40k+ records** of air quality, emissions, and weather data. Compared RNN, LSTM, GRU, and Transformer models in PyTorch.
+- Built **PyTorch forecasting models on 40k+ records** of air quality, emissions, and meteorological data.
+- Compared **RNN, LSTM, GRU, and Transformer** architectures using **24-hour sliding-window histories**.
+- Predicted **PM2.5, O3, and AQI** over **6-, 12-, and 24-hour horizons**.
 
-> **~12% lower RMSE** with LSTM versus the baseline RNN, with the most stable performance across 6-, 12-, and 24-hour forecast horizons.
+> **~12% lower RMSE** with LSTM versus the baseline RNN, with stable performance across forecast horizons.
 
 ## 🟠 Selected builds
 
 | Project | What I built | Focus |
 | :--- | :--- | :--- |
-| **Cross-modal Audio Generation**<br>Jun–Sep 2025 | A web application that generates emotion-aligned audio from images using training-free multimodal RAG, a cross-modal knowledge graph, dual-vector databases, and Qwen-based aggregation. | `Multimodal RAG`<br>`Accessibility` |
+| **Cross-modal Audio Generation**<br>Jun–Sep 2025 | An image-to-audio web application using **training-free multimodal RAG**, a cross-modal knowledge graph, and dual-vector databases for visual/textual retrieval. **Image-to-tags and image-to-descriptions** processing paths feed Qwen-based aggregation to support emotion-aware audio generation. | `Multimodal RAG`<br>`Accessibility` |
 | **Daily Reading Tracker**<br>Mar–Jun 2025 | The core reading-log module across the front end and back end of a deployed full-stack Java application, with technical documentation. | `Java`<br>`Full-stack` |
 
 [Explore my portfolio →](https://gary22222222.github.io/cs409-mp0/#projects)
@@ -96,13 +102,15 @@ Built multi-horizon forecasting models using **40k+ records** of air quality, em
 
 <img src="assets/toolkit.svg" width="100%" alt="Languages: Python, Java, C++, JavaScript, SQL. AI/ML: PyTorch, Transformers, scikit-learn, LoRA/PEFT, RAG, LangChain. Backend and tools: FastAPI, Spring Boot, REST APIs, Docker, Git/GitHub.">
 
-**Also work with:** Computer Vision · NLP · LLMs · Jupyter · Postman · n8n
+**Research toolkit:** CLIP · Multimodal learning · Computer Vision · NLP · LLMs
+
+**Additional tools:** Jupyter · Postman · n8n
 
 <details>
 <summary>View the toolkit as text</summary>
 
 - **Languages:** Python, Java, C++, JavaScript, SQL
-- **AI / ML:** PyTorch, Transformers, scikit-learn, Computer Vision, NLP, LoRA/PEFT, LLMs, RAG, LangChain
+- **AI / ML:** PyTorch, Transformers, scikit-learn, CLIP, multimodal learning, Computer Vision, NLP, LoRA/PEFT, LLMs, RAG, LangChain
 - **Backend & tools:** FastAPI, Spring Boot, REST APIs, Docker, Git, GitHub, Jupyter, Postman, n8n
 
 </details>
@@ -131,4 +139,3 @@ Lecture Notes in Computer Science, Vol. 16568 · Springer, 2026
   <a href="mailto:jianghuisun69@gmail.com">jianghuisun69@gmail.com</a> &nbsp; / &nbsp;
   <a href="https://gary22222222.github.io/cs409-mp0/">Personal website</a>
 </p>
-
