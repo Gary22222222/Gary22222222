@@ -27,7 +27,9 @@
 **UIUC SSAIL · Research Assistant**  
 🟢 **Ongoing**
 
-Investigating system optimization for **prefill/decode (P/D)-disaggregated LLM inference** in multi-turn agentic workloads. Repeated interactions create distinct inference and serving demands, which motivate this ongoing systems work.
+Analyzing prefill/decode-disaggregated LLM serving for multi-turn agent workloads to identify compute bottlenecks and latency trade-offs across repeated inference cycles.
+
+Designing workload-level evaluations of prefill/decode placement, throughput, end-to-end latency, and GPU utilization to inform serving optimization; measurements in progress.
 
 `LLM serving` `P/D disaggregation` `Agentic workloads`
 
@@ -50,14 +52,8 @@ Investigating whether **knowledge organization** helps agents learn to revise st
 <details>
 <summary><b>Inside the CS546 project — research question & evaluation plan</b></summary>
 
-**Knowledge Organization for Agent Memory Evolution** compares flat and semantically organized views of the same memory bank, with matched content, evidence, and feedback budgets.
-
-- **Question:** Does knowledge organization improve learning gains and sample efficiency for selective memory revision?
-- **Planned evaluation:** Reinforcement-learning gains, correction behavior, and preservation of valid knowledge.
-- **Benchmarks in the evaluation plan:** STALE, AgentStream, and MemoryAgentBench.
-- **Controls:** Separate the effect of semantic structure from generic grouping.
-
-This is ongoing team research; the evaluation plan is not a claim of completed results.
+- Developed a controlled evaluation design comparing flat and semantic memory organizations under matched knowledge and feedback budgets to isolate memory-update effects.
+- Specified reinforcement-learning-based tests across 3 planned benchmarks (STALE, AgentStream, MemoryAgentBench), measuring stale-memory correction and valid-knowledge retention; experiments ongoing.
 
 </details>
 
@@ -67,17 +63,15 @@ This is ongoing team research; the evaluation plan is not a claim of completed r
 
 **Research Assistant · Xi’an Jiaotong-Liverpool University** · Nov 2025–Jan 2026
 
-- Built a multimodal emoji-understanding framework combining **DINOv2 visual representations with Qwen-VL** for fine-grained expression description generation.
-- Designed **adapter-based feature alignment** to map DINOv2 representations into Qwen-VL’s vision feature space.
-- Connected aligned features to the language decoder to describe subtle facial expressions.
+- Built a fine-grained emoji-understanding pipeline integrating DINOv2 visual representations with Qwen-VL language generation to capture subtle expression cues.
+- Designed a feature-alignment adapter connecting DINOv2 embeddings to Qwen-VL vision inputs, enabling expression-conditioned descriptions without retraining the full language model.
 
 ### Emotion-aware multimodal agents
 
 **Research Assistant · Xi’an Jiaotong-Liverpool University** · Sep–Nov 2025
 
-- Developed **EmoSound**, a multimodal agent for emotion-aware audio accompaniment of visual emojis for visually impaired users.
-- Integrated **emotion-aligned retrieval with audio generation**.
-- Fine-tuned **CLIP with a lightweight cross-attention soft-prompt module** for low-resource emotion recognition, addressing limited emoji/emotion-aligned training data.
+- Developed a cross-attention soft-prompt adaptation of frozen CLIP for 1,613 emojis across 18 emotion classes; achieved 82.44% Top-1 accuracy and 82.31% macro F1, improving accuracy by 60.91 percentage points over vanilla CLIP.
+- Built a VLM/LLM-agent audio-matching workflow with Top-5 retrieval from a 287-clip library; in a 10-person study, improved perceived expressiveness from 2.7/5 to 4.3/5 versus text-only labels.
 
 ### Air quality forecasting
 
@@ -93,7 +87,7 @@ This is ongoing team research; the evaluation plan is not a claim of completed r
 
 | Project | What I built | Focus |
 | :--- | :--- | :--- |
-| **Cross-modal Audio Generation**<br>Jun–Sep 2025 | An image-to-audio web application using **training-free multimodal RAG**, a cross-modal knowledge graph, and dual-vector databases for visual/textual retrieval. **Image-to-tags and image-to-descriptions** processing paths feed Qwen-based aggregation to support emotion-aware audio generation. | `Multimodal RAG`<br>`Accessibility` |
+| **Cross-modal Audio Generation**<br>Jun–Sep 2025 | Engineered a training-free CLIP/Qwen/FAISS emoji-to-audio retrieval pipeline using Top-5 image matching; organized 1,691 emoji images spanning 18 emotion categories.<br>Curated a 420-clip audio library (279 collected, 141 AI-generated) and integrated AudioLDM2 music with AudioMiniMax speech synthesis into a working accessibility demo. | `Multimodal RAG`<br>`Accessibility` |
 | **Daily Reading Tracker**<br>Mar–Jun 2025 | The core reading-log module across the front end and back end of a deployed full-stack Java application, with technical documentation. | `Java`<br>`Full-stack` |
 
 [Explore my portfolio →](https://gary22222222.github.io/cs409-mp0/#projects)
@@ -119,10 +113,9 @@ This is ongoing team research; the evaluation plan is not a claim of completed r
 
 **EmoSound: A Multimodal AI Agent Framework for Emotion-Aware Audio Accompaniment of Emoticons**
 
-**Sun, J.**, et al. · *Advances in Brain-Inspired Cognitive Systems*  
-Lecture Notes in Computer Science, Vol. 16568 · Springer, 2026
+**Sun, J.**, Shi, H., Yin, Z., Mo, W., Ding, H., Hu, Y., Yang, X., & Yan, Y.
 
-🟣 **Accepted for publication; forthcoming** &nbsp; · &nbsp; Presented at **BICS 2025**
+*BICS 2025 conference program* · **Paper #52**
 
 ## 🎓 Education
 
